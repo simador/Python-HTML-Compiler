@@ -1,0 +1,5 @@
+Requirements:
+Python 3.13.2 or higher (Download at https://www.python.org/downloads/);
+Webview (Install Python first then in CMD (Command Prompt) run this command "pip install pywebview");
+(Optional) Tkinterdnd2 make the same in Webview but run this command "pip install tkinterdnd2";
+  
