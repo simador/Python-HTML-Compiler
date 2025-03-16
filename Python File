@@ -36,7 +36,7 @@ def change_theme():
 
 def about():
     year = datetime.datetime.now().year
-    messagebox.showinfo("Acerca", f"Empresa: Bui-Coisas Inacreditáveis (BUI-CI)\nVersão: Python\nNota: Esta empresa não é oficial\n\nCopyright {year} BUI-CI. All rights reserved")
+    messagebox.showinfo("Abouta", f"Enterprise: Bui-Coisas Inacreditáveis (BUI-CI)\nVersão: Python\nNota: This enterprise is not official\n\nCopyright {year} Simador (Github). All rights reserved")
 
 def toggle_video_mode():
     root.attributes('-fullscreen', True)
@@ -63,12 +63,12 @@ menu_bar = tk.Menu(root)
 system_menu = tk.Menu(menu_bar, tearoff=0)
 system_menu.add_command(label="Modo Escuro", command=change_theme)
 system_menu.add_command(label="Modo Vídeo", command=toggle_video_mode)
-menu_bar.add_cascade(label="Sistema", menu=system_menu)
+menu_bar.add_cascade(label="System", menu=system_menu)
 
 
 more_menu = tk.Menu(menu_bar, tearoff=0)
 more_menu.add_command(label="Acerca", command=about)
-menu_bar.add_cascade(label="Mais", menu=more_menu)
+menu_bar.add_cascade(label="More", menu=more_menu)
 
 root.config(menu=menu_bar)
 
